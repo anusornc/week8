@@ -1,0 +1,11 @@
+# ทำการชี้ Link ไปยังต้นฉบับของ repository (ไม่ใช่ repository ที่ fork มา)
+git remote add upstream https://github.com/CEN2001/week8.git
+
+# ทำการ Sync ข้อมูลกับต้นฉบับของ repository
+git pull upstream master
+
+# ตรวจสอบ remote repository
+git remote -v
+
+# ลบ upstream ทิ้ง
+git remote rm upstream
